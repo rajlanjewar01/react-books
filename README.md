@@ -57,6 +57,47 @@ useEffect(() => {
 - First argument is a function that contains code we want to run
 - Second argument is an array or nothing - this contains whether the function is executed on rerenders
 
+- Variations of `useEffect`
+1) With argument
+
+```
+  useEffect(() => {
+	console.log('Hi!');
+  }, [])
+```
+  => Second argument is []
+  
+  => Called after **first render**
+  
+  => Never called again
+
+  2) No argument
+
+  ```
+     useEffect(() => {
+		console.log('Hi!');
+     })
+  ```
+
+=> Second argument is -
+
+=> Called after **first render**
+
+=> Also called after **every rerender**
+
+3) With argument and value
+
+```
+useEffect(() => {
+	console.log('Hi!');
+}, [counter])
+```
+=> Second argument is [ counter]
+
+=> called after first render
+
+=> Also called after rerenders if 'counter' variable changed
+
   
 
 
