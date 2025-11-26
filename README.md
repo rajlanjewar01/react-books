@@ -8,3 +8,10 @@ JSON server setup:
 2) Create db.json file. This is where data will be stored
 3) Create a command to run a JSON-Server
 4) Run the command
+
+Run the application:
+Two commands to start project - 
+1) `npm start` - Start the React Dev server
+2) `npm run json-server` - Starts JSON-Server
+
+
