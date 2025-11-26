@@ -57,7 +57,12 @@ useEffect(() => {
 - First argument is a function that contains code we want to run
 - Second argument is an array or nothing - this contains whether the function is executed on rerenders
 
-- Variations of `useEffect`
+- **Variations of `useEffect`**
+  
+Video notes: https://xxx.udemy.com/course/react-redux/learn/lecture/34694682#content
+
+Practice code: https://www.codepen.io/sgrider/pen/BarEowz
+  
 1) With argument
 
 ```
@@ -97,6 +102,7 @@ i) Second argument is [ counter]
 ii) called after first render
 
 iii) Also called after rerenders if 'counter' variable changed
+
 
   
 
