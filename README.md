@@ -14,7 +14,7 @@ Two commands to start project -
 1) `npm start` - Start the React Dev server
 2) `npm run json-server` - Starts JSON-Server
 
-*1. How API works: *
+*1. **How API works**: *
 | Goal | URL | Method | Request Body | Response Body |
 |---|---|---|---|---|
 | **Create Book** | localhost:3001/books | POST | `{"title": "Harry Potter"}` | `{"id": 1, "title": "Harry Potter"}` |
@@ -22,7 +22,8 @@ Two commands to start project -
 | **Update Book** | localhost:3001/books/1 | PUT | `{"id": 1, "title": "Rich Dad, Poor Dad"}` | `{"id": 1, "title": "Rich Dad, Poor Dad"}` |
 | **Delete Book** | localhost:3001/books/1 | DELETE | - | `{"id": 1, "title": "Harry Potter"}` |
 
-3. Create/Edit/Delete a book, update the API and then update the local data
+3. **Create/Edit/Delete a book, update the API and then update the local data**
+
    install `axios`
 
    App.js
@@ -42,3 +43,21 @@ Two commands to start project -
 		setBooks(updatedBooks);
 	}
 ```
+
+2.  **On App startup make a request to API to get the current list of books**
+**useEffect**
+- Function that we import from React
+- Used to run code when a component is **initailly rendered** and (sometimes) **when it is** _rerendered_
+
+```javascript
+useEffect(() => {
+	console.log('Hi!');
+}, [])
+```
+- First argument is a function that contains code we want to run
+- Second argument is an array or nothing - this contains whether the function is executed on rerenders
+
+  
+
+
+
