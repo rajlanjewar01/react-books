@@ -14,4 +14,12 @@ Two commands to start project -
 1) `npm start` - Start the React Dev server
 2) `npm run json-server` - Starts JSON-Server
 
+How API works: 
+| Goal | URL | Method | Request Body | Response Body |
+|---|---|---|---|---|
+| **Create Book** | localhost:3001/books | POST | `{"title": "Harry Potter"}` | `{"id": 1, "title": "Harry Potter"}` |
+| **Get All Books** | localhost:3001/books | GET | - | `[{"id": 1, "title": "Harry Potter"}]` |
+| **Update Book** | localhost:3001/books/1 | PUT | `{"id": 1, "title": "Rich Dad, Poor Dad"}` | `{"id": 1, "title": "Rich Dad, Poor Dad"}` |
+| **Delete Book** | localhost:3001/books/1 | DELETE | - | `{"id": 1, "title": "Harry Potter"}` |
+
 
