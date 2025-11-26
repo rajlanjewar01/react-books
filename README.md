@@ -65,11 +65,11 @@ useEffect(() => {
 	console.log('Hi!');
   }, [])
 ```
-  => Second argument is []
+  i) Second argument is []
   
-  => Called after **first render**
+  ii) Called after **first render**
   
-  => Never called again
+  iii) Never called again
 
   2) No argument
 
@@ -79,11 +79,11 @@ useEffect(() => {
      })
   ```
 
-=> Second argument is -
+i) Second argument is -
 
-=> Called after **first render**
+ii) Called after **first render**
 
-=> Also called after **every rerender**
+iii) Also called after **every rerender**
 
 3) With argument and value
 
@@ -92,11 +92,11 @@ useEffect(() => {
 	console.log('Hi!');
 }, [counter])
 ```
-=> Second argument is [ counter]
+i) Second argument is [ counter]
 
-=> called after first render
+ii) called after first render
 
-=> Also called after rerenders if 'counter' variable changed
+iii) Also called after rerenders if 'counter' variable changed
 
   
 
