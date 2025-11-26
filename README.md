@@ -1,1 +1,3 @@
-This is a React Starter Project for use in Stephen Grider's courses on Udemy.
+Run the project:
+Note: Before running make sure your ism/internet does not block the image fetch from external server used in this application(check console)
+npm start
