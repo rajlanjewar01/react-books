@@ -1,3 +1,9 @@
+App Phases:
+1. Local, non-persisted list of books
+2. List of books persisted with outside API
+3. Outside API + centralized store
+
+2. **List of books persisted with outside API**
 Things we need to do:
 1) Create the API and undertand how it works.
 2) When app start ups, make a request to API to get the current list of books.
@@ -45,6 +51,7 @@ Two commands to start project -
 ```
 
 2.  **On App startup make a request to API to get the current list of books**
+   
 **useEffect**
 - Function that we import from React
 - Used to run code when a component is **initailly rendered** and (sometimes) **when it is** _rerendered_
