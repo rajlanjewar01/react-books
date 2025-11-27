@@ -28,7 +28,7 @@ export { Provider }; // names export
 export default BooksContext; // default export
 ```
 
-2) Declair Provider in main src/index.js
+2) Declare Provider in main src/index.js
 
 ```
 import React from 'react';
