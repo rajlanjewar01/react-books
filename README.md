@@ -26,7 +26,7 @@ root.render(
 ```
 
 3) Use in component:
-
+src/components/BookList.js‎
 ```
 import { useContext } from 'react';
 import BooksContext from '../context/books';
