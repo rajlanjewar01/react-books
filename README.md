@@ -1,7 +1,7 @@
 App Phases:
 1. Local, non-persisted list of books
-2. List of books persisted with outside API
-3. Outside API + centralized store
+2. List of books persisted with outside API (https://github.com/rajlanjewar01/react-books/pull/2/)
+3. Outside API + centralized store (https://github.com/rajlanjewar01/react-books/pull/4/)
 
 
 **List of books persisted with outside API**
