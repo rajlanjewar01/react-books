@@ -3,17 +3,28 @@ import axios from 'axios';
 
 const BooksContext = createContext();
 
+// Determine API base URL based on environment
+const getApiBase = () => {
+  if (import.meta.env.VITE_API_URL) {
+    return import.meta.env.VITE_API_URL;
+  }
+  // Default to localhost for local development
+  return 'http://localhost:3001';
+};
+
+const API_BASE = getApiBase();
+
 function Provider({ children }) {
   const [books, setBooks] = useState([]);
 
   const fetchBooks = async () => {
-    const response = await axios.get('http://localhost:3001/books');
+    const response = await axios.get(`${API_BASE}/books`);
 
     setBooks(response.data);
   };
 
   const editBookById = async (id, newTitle) => {
-    const response = await axios.put(`http://localhost:3001/books/${id}`, {
+    const response = await axios.put(`${API_BASE}/books/${id}`, {
       title: newTitle,
     });
 
@@ -29,7 +40,7 @@ function Provider({ children }) {
   };
 
   const deleteBookById = async (id) => {
-    await axios.delete(`http://localhost:3001/books/${id}`);
+    await axios.delete(`${API_BASE}/books/${id}`);
 
     const updatedBooks = books.filter((book) => {
       return book.id !== id;
@@ -39,7 +50,7 @@ function Provider({ children }) {
   };
 
   const createBook = async (title) => {
-    const response = await axios.post('http://localhost:3001/books', {
+    const response = await axios.post(`${API_BASE}/books`, {
       title,
     });
 
