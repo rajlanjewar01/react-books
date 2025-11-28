@@ -7,6 +7,9 @@ App Phases:
    Deploying json-server to hosting platform with Render.com [https://github.com/rajlanjewar01/react-books/pull/5]
 
 
+**Linked project:**
+https://github.com/rajlanjewar01/json-server
+
 **List of books persisted with outside API**
 
 Things we need to do:
