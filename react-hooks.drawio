@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="Page-1" id="3njxQUb4jNeYreRUQCv7">
+    <mxGraphModel dx="872" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NYEXi0m4I0BZo_Ez-_tG-12" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="290" width="440" x="150" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="NYEXi0m4I0BZo_Ez-_tG-1" parent="NYEXi0m4I0BZo_Ez-_tG-12" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Functions that add additional features to a component&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="440" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NYEXi0m4I0BZo_Ez-_tG-2" parent="NYEXi0m4I0BZo_Ez-_tG-12" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Hooks&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="190" as="geometry" />
+        </mxCell>
+        <mxCell id="NYEXi0m4I0BZo_Ez-_tG-9" edge="1" parent="NYEXi0m4I0BZo_Ez-_tG-12" source="NYEXi0m4I0BZo_Ez-_tG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NYEXi0m4I0BZo_Ez-_tG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYEXi0m4I0BZo_Ez-_tG-3" parent="NYEXi0m4I0BZo_Ez-_tG-12" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="useState" vertex="1">
+          <mxGeometry height="40" width="120" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NYEXi0m4I0BZo_Ez-_tG-4" parent="NYEXi0m4I0BZo_Ez-_tG-12" style="rounded=0;whiteSpace=wrap;html=1;" value="Allows a component to use a state system" vertex="1">
+          <mxGeometry height="40" width="270" x="170" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NYEXi0m4I0BZo_Ez-_tG-10" edge="1" parent="NYEXi0m4I0BZo_Ez-_tG-12" source="NYEXi0m4I0BZo_Ez-_tG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NYEXi0m4I0BZo_Ez-_tG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYEXi0m4I0BZo_Ez-_tG-5" parent="NYEXi0m4I0BZo_Ez-_tG-12" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="useEffect" vertex="1">
+          <mxGeometry height="40" width="120" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="NYEXi0m4I0BZo_Ez-_tG-6" parent="NYEXi0m4I0BZo_Ez-_tG-12" style="rounded=0;whiteSpace=wrap;html=1;" value="Allows a component to run a code at a specific point of time" vertex="1">
+          <mxGeometry height="40" width="270" x="170" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="NYEXi0m4I0BZo_Ez-_tG-11" edge="1" parent="NYEXi0m4I0BZo_Ez-_tG-12" source="NYEXi0m4I0BZo_Ez-_tG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NYEXi0m4I0BZo_Ez-_tG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYEXi0m4I0BZo_Ez-_tG-7" parent="NYEXi0m4I0BZo_Ez-_tG-12" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="useContext" vertex="1">
+          <mxGeometry height="40" width="120" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="NYEXi0m4I0BZo_Ez-_tG-8" parent="NYEXi0m4I0BZo_Ez-_tG-12" style="rounded=0;whiteSpace=wrap;html=1;" value="Allows a component to access a value stored in a context" vertex="1">
+          <mxGeometry height="40" width="270" x="170" y="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
