@@ -4,6 +4,10 @@ App Phases:
 3. Outside API + centralized store (https://github.com/rajlanjewar01/react-books/pull/4/)
 
 
+Notable changes:
+Deploying json-server to hosting platform with Render.com [https://github.com/rajlanjewar01/react-books/pull/5]
+
+
 **List of books persisted with outside API**
 
 Things we need to do:
