@@ -5,7 +5,7 @@ App Phases:
 1. Local, non-persisted list of books ([#1](https://github.com/rajlanjewar01/react-books/commit/745f6b60017f40b57ca9a823b1d679856f67ee96))
 2. List of books persisted with outside API (https://github.com/rajlanjewar01/react-books/pull/2/)
 3. Outside API + centralized store (https://github.com/rajlanjewar01/react-books/pull/4/)
-4. useCallback: (https://github.com/rajlanjewar01/react-books/pull/7)
+4. useCallback (https://github.com/rajlanjewar01/react-books/pull/7)
 5. Notable changes:
 
    Deploying json-server to hosting platform with Render.com [https://github.com/rajlanjewar01/react-books/pull/5]
