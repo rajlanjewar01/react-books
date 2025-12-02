@@ -1,4 +1,4 @@
-import { createContext, useState } from 'react';
+import { createContext, useState, useCallback } from 'react';
 import axios from 'axios';
 
 const BooksContext = createContext();
@@ -17,11 +17,11 @@ const API_BASE = getApiBase();
 function Provider({ children }) {
   const [books, setBooks] = useState([]);
 
-  const fetchBooks = async () => {
+  const fetchBooks = useCallback(async () => {
     const response = await axios.get(`${API_BASE}/books`);
 
     setBooks(response.data);
-  };
+  }, []);
 
   const editBookById = async (id, newTitle) => {
     const response = await axios.put(`${API_BASE}/books/${id}`, {
