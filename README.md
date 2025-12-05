@@ -29,8 +29,8 @@ JSON server setup:
 
 Run the application:
 Two commands to start project - 
-1) `npm start` - Start the React Dev server
-2) `npm run json-server` - Starts JSON-Server
+1) `npm run server` - Starts JSON-Server
+2) `npm start` - Start the React Dev server
 
 *1. **How API works**: *
 | Goal | URL | Method | Request Body | Response Body |
